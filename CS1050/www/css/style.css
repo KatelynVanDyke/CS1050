@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+    color: lime;
+    font-family:"Courier New", Courier, monospace;
+    margin: 2%;
+}
+
+button {
+    background-color: black;
+    border: 2px solid lime;
+    outline: none;
+    color: lime;
+    font-family:"Courier New", Courier, monospace;
+    font-weight: bold;
+}
+
+a {
+    color: lime;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.video {
+    width: 100%;
+    height: calc(98vw * .5625);
+}
+
+#index_wrapper {
+    height: 98vh;
+    position: relative;
+}
+
+#index_content {
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+a, button {
+    font-size: 2.8vw;
+}
+
+a.external_link, body {
+    font-size: 1.6vw;
+}
+
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 8.75vw;
+    }
+
+    a, button {
+        font-size: 5vw;
+    }
+
+    a.external_link, body {
+        font-size: 2.8vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 15.3vw;
+    }
+
+    a, button {
+        font-size: 8.75vw;
+    }
+
+    a.external_link, body {
+        font-size: 5vw;
+    }
+}
